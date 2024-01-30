@@ -24,4 +24,4 @@ RUN mkdir /project/tools/ && \
     
 # Execute script
 #ENTRYPOINT ["make", "test", "-C", "/project/"]
-ENTRYPOINT ["/bin/bash"]
+# ENTRYPOINT ["/bin/bash"]
