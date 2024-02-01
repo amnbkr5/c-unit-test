@@ -27,4 +27,4 @@ RUN mkdir /misra_rule
 #install ceedling 
 RUN gem install ceedling
 #commad that will be invoked when container starts
-ENTRYPOINT ["/bin/bash"]
+#ENTRYPOINT ["/bin/bash"]
